@@ -54,5 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 //default backoffice
-$route['admin'] = 'admin/dashboard';
+$route['admin'] = 'admin/Auth';
+
 $route['admin/(:any)'] = 'admin/$1';
